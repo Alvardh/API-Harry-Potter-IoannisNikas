@@ -1,0 +1,21 @@
+<h2 style="text-align: center">Hogwart's Teachers, Staff and Students</h2>
+<hr>
+  
+<div class = "col-lg-12">
+  <ul class="list-group" >
+    <li [style.background-color]="'transparent'" class="list-group-item" *ngFor="let char of chars">
+      <div>
+        <h2 [style.color]="'brown'">{{char.name}}</h2>
+        <img class="photo" src={{char.image}} alt={{char.name}}>
+        <h3>from house {{char.house}}</h3>
+      </div>
+      <div>
+        <p>Gender : {{char.gender}}</p>
+        <p>Born : {{char.yearOfBirth}}</p>
+        <p>Patronus : {{char.patronus}}</p>
+        <p>Interpreted by : {{char.actor}}</p>
+      </div>
+      <hr>
+    </li>
+  </ul>
+</div>

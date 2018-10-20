@@ -1,0 +1,21 @@
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
+.leatherBG {
+    background-image: url('../assets/BrownLeather.jpg');
+    color : white;
+    margin-bottom: -3vh;
+}
+
+.gold {
+    height: 2vh;
+    background-image: url('../assets/Golden.jpg');
+    margin-top: 3vh;
+}

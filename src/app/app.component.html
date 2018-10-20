@@ -1,0 +1,26 @@
+<div class="leatherBG">
+  <h1 class="intro">Mon site de test : personnages de Harry Potter</h1>
+  <p class="intro">(Essais d'integration d'API sur Angular)</p>
+</div>
+
+<div class="gold"></div>
+
+<ul class="nav nav-pills nav-fill">
+  <li class="nav-item " routerLinkActive="active">
+    <a class="nav-link" routerLink="personnages">All characters</a>
+  </li>
+  <li class="nav-item" routerLinkActive="active">
+    <a class="nav-link" routerLink="etudiants">Students</a>
+  </li>
+  <li class="nav-item" routerLinkActive="active">
+    <a class="nav-link" routerLink="enseignants">Teachers/Staff</a>
+  </li>
+</ul>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

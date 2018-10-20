@@ -1,0 +1,26 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+    font-family: "harryp";
+    src: url("./assets/HARRYP__.TTF");
+}
+  
+body {
+    background-image: url('assets/ScrollBG.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "harryp";
+    font-size: 200%;
+}
+
+a {
+    color: brown;
+    border-radius: 15px;
+}
+
+a:hover {
+    color: white;
+    background-color: brown;
+}
