@@ -9,9 +9,9 @@ import { Observable } from 'rxjs';
 })
 export class EtudiantService {
  
-    private urlStudent: string = 'http://hp-api.herokuapp.com/api/characters/students';
-    private urlTeacher: string = 'http://hp-api.herokuapp.com/api/characters/staff'
-    private urlChar: string = 'http://hp-api.herokuapp.com/api/characters'
+    private urlStudent: string = 'https://hp-api.herokuapp.com/api/characters/students';
+    private urlTeacher: string = 'https://hp-api.herokuapp.com/api/characters/staff'
+    private urlChar: string = 'https://hp-api.herokuapp.com/api/characters'
 
     constructor(private http :HttpClient) {}
  
